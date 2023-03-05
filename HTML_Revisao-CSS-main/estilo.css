@@ -1,0 +1,19 @@
+p{
+   font-size: 30px;
+   color: #00FF00;
+}
+
+.foo{
+    color: rgb(0,255,255);
+    font-weight: 100;
+}
+
+#bar:hover{
+    font-size: 60px;
+    background-color: red;
+}
+
+#bar:visited{
+    font-size: 20px;
+    background-color: blue;
+}

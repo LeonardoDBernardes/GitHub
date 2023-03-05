@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio 2</title>
+</head>
+<body>
+    <script>
+        //faça uma função que peça uma lista de numeros e retorne o maior, o menor e a media
+        //array
+        //loop
+        //condição
+        //media: soma de todos os numeros dividido pela quantidade de numeros
+        let meusNumeros= [12, 34, 35, 77, 24, 3, 6, 7];
+
+        function mmm(lista){
+            let min = lista[0];
+            let max = lista[0];
+            let media = 0;
+
+            for(let i = 0; i < lista.length; i++){
+                if(lista[i] < min){
+                    min = lista[i];
+                }
+
+                if(lista[i] > max){
+                    max = lista[i];
+                }
+
+                media += lista[i];
+
+            }
+
+            media = media/lista.length;
+
+            alert(`Menor: ${min}/ Maior: ${max}/ Media: ${media}`);
+        }
+
+        mmm(meusNumeros);
+
+    </script>
+</body>
+</html>

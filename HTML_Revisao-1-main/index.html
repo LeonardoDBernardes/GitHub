@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //peça ao usuario dois numeros e retorne se primeiro numero é multiplo do segundo
+        //Entrada: Dois numeros
+        //
+        //Saida: se o primeiro numero ´multiplo do segundo
+
+        let numero = parseInt(prompt("Digite o primeiro numero"));
+        let divisor = parseInt(prompt("Digite o segundo numero"));
+
+        if(numero%divisor === 0){
+            alert( numero + " é multiplo de " + divisor);
+        }else{
+            alert(`${numero} não é multiplo de ${divisor}`);
+        }
+
+    </script>
+</body>
+</html>
