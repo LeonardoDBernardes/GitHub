@@ -1,0 +1,12 @@
+int numero, resto;
+printf("Digite um numero:");
+scanf("%d",&numero);
+resto = numero % 2;
+if(resto == 0) {
+printf("O numero eh par.");
+}
+else {
+printf("O numero eh impar.");}
+return 0;
+system("pause");
+}

@@ -1,0 +1,4 @@
+resto = n % 2;
+resto2 = n % 5;
+if(resto == 0 && resto2 == 0) {
+printf("Esse numero eh par, e e divisivel por 2 e 5.");
